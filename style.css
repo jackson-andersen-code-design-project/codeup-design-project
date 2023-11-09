@@ -160,18 +160,6 @@ aside img {
 
 /*Media Queries*/
 
-/*xs*/
-@media screen and (min-width: 320px) {
-
-}
-
-/*sm*/
-@media screen and (min-width: 576px) {
-    /*.circle-container {*/
-    /*    width: 50%;*/
-    /*}*/
-}
-
 /*md*/
 @media screen and (min-width: 768px) {
     header {
@@ -184,9 +172,4 @@ aside img {
     .row-gapper {
         margin-top: 10em !important;
     }
-}
-
-/*xl*/
-@media screen and (min-width: 1200px) {
-
 }
