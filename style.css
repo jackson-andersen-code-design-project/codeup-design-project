@@ -5,6 +5,80 @@ margin: 0;
     font-family: Abel, sans-serif;
 }
 
-h1{
+html {
+    background-color: #E6E6E6;
+}
+
+.container-fluid {
+    background-color: #E6E6E6;
+}
+
+h1, h2{
     font-family: Anton, sans-serif;
+}
+
+.cool-logo {
+    height: 105px;
+    width: 105px;
+}
+
+.icons {
+    height: 18px;
+    width: 18px;
+}
+
+h1,h2,h3,h4 {
+    text-transform: uppercase;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: white;
+    line-height: 85px;
+    text-align: center;
+    border: 8px solid #F0F0F0;
+    flex-shrink: 2;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5em;
+    margin-right: 5em;
+    flex-wrap: wrap;
+}
+
+#red {
+    background-color: #E6563B;
+}
+#orange {
+    background-color: #EB9D3A
+}
+#green {
+    background-color: #7CB06C;
+}
+#teal {
+    background-color: #00ABA9
+}
+.lightgrey {
+    background-color: #F0F0F0;
+}
+.grey {
+    background-color: #E6E6E6;
+}
+
+.jumbotron {
+    background-color: #E6E6E6;
+}
+#codeup-navbar.bg-body-tertiary {
+    background-color: #E6E6E6 !important;
+}
+
+.header1 {
+    font-size: 5em;
+}
+.header2 {
+    font-size: 3em;
 }
