@@ -14,7 +14,7 @@ html {
     background-color: #E6E6E6;
 }
 
-h1, h2, .icons {
+h1, h2, h4, .icons {
     font-family: Anton, sans-serif;
 }
 
@@ -50,14 +50,13 @@ h1, h2, h3, h4 {
 
 .img-border {
     border: lightgrey solid 5px;
+    height: 300px !important;
 }
 
 .circle-container {
     display: flex;
     justify-content: center;
     margin-top: 5em;
-    /*flex-wrap: wrap;*/
-    /*margin: auto;*/
 }
 
 .flex-item-right {
@@ -110,6 +109,7 @@ hr {
     border-color: slategray;
     width: 80% !important;
     margin: auto !important;
+    padding: 10px;
 }
 
 .icon-holder {
@@ -125,6 +125,37 @@ hr {
 
 .figure {
     position: relative;
+}
+
+aside p {
+    text-align: left;
+}
+
+aside p:nth-child(3) {
+    font-family: sans-serif;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-content-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+
+aside h4 {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+aside img {
+    height: 100px;
+    width: 100px;
 }
 
 /*Media Queries*/
@@ -143,12 +174,16 @@ hr {
 
 /*md*/
 @media screen and (min-width: 768px) {
-
+    header {
+        margin-bottom: 40px;
+    }
 }
 
 /*lg*/
-@media screen and (min-width: 992px) {
-
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .row-gapper {
+        margin-top: 10em !important;
+    }
 }
 
 /*xl*/
