@@ -161,6 +161,13 @@ aside img {
 /*Media Queries*/
 
 /*md*/
+@media screen and (max-width: 767px) {
+    .img-border {
+        width: 70vw !important;
+    }
+}
+
+/*md*/
 @media screen and (min-width: 768px) {
     header {
         margin-bottom: 40px;
