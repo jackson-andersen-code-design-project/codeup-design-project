@@ -51,6 +51,7 @@ h1, h2, h3, h4 {
 .img-border {
     border: lightgrey solid 5px;
     height: 300px !important;
+    width: 70vw !important;
 }
 
 .circle-container {
@@ -159,6 +160,14 @@ aside img {
 }
 
 /*Media Queries*/
+
+/*sm*/
+
+@media screen and (min-width: 768px) {
+    header {
+        margin-bottom: 40px;
+    }
+}
 
 /*md*/
 @media screen and (min-width: 768px) {
