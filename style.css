@@ -51,7 +51,6 @@ h1, h2, h3, h4 {
 .img-border {
     border: lightgrey solid 5px;
     height: 300px !important;
-    width: 70vw !important;
 }
 
 .circle-container {
@@ -98,7 +97,7 @@ h1, h2, h3, h4 {
 }
 
 .header1 {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .header2 {
