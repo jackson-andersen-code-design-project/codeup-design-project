@@ -160,7 +160,7 @@ aside img {
 
 /*Media Queries*/
 
-/*md*/
+/*xs and small*/
 @media screen and (max-width: 767px) {
     .img-border {
         width: 70vw !important;
