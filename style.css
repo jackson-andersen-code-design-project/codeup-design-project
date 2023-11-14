@@ -97,7 +97,7 @@ h1, h2, h3, h4 {
 }
 
 .header1 {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .header2 {
@@ -159,6 +159,13 @@ aside img {
 }
 
 /*Media Queries*/
+
+/*xs and small*/
+@media screen and (max-width: 767px) {
+    .img-border {
+        width: 70vw !important;
+    }
+}
 
 /*md*/
 @media screen and (min-width: 768px) {
